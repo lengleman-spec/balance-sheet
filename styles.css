@@ -53,4 +53,15 @@ section {
   top: 0;
   color: #fff;
   background-color: #0a0a23;
+
+  margin: 0 -2px;
+  padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
+  z-index: 999;
+}
+
+/* Targets all span elements with an id="years" that also have a class attached to them. */
+#years span[class] {
+  font-weight: 800;
+  width: 4.5rem;
+  text-align: right;
 }
